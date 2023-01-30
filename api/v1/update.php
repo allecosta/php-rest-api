@@ -19,7 +19,7 @@ $item->name = $data->name;
 $item->email = $data->email;
 $item->age = $data->age;
 $item->designation = $data->designation;
-$item->created_at = $data->created_at;
+$item->created_at = date('Y-m-d H:i:s');
 
 if ($item->updateAssociate()) {
     echo json_encode("Associado atualizado com sucesso :)");
