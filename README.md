@@ -13,7 +13,7 @@ fornecem interoperabilidade entre sistemas na internet. Os Web Services RESTful 
 
 ## PHP REST API - Projeto 
 
-### Intale o projeto
+### Instale o projeto
 
 ```
 git clone https://github.com/allecosta/php-rest-api.git
@@ -51,7 +51,11 @@ CREATE TABLE associates (
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ```
-
+- GET - http://localhost:8000/api/v1/read.php Busca todos os registros
+- GET - http://localhost:8000/api/v1/single.php Busca um único registro
+- POST - http://localhost:8000/api/v1/create.php Cria registros
+- PUT - http://localhost:8000/api/v1/update.php Atualiza registros
+- DELETE - http://localhost:8000/api/v1/delete.php Exclui registros
 
 
 
